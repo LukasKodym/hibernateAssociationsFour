@@ -1,8 +1,11 @@
 package pl.lukas.bibernateAssociationsFour.entity;
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.util.List;
 
+@NoArgsConstructor
 @Entity
 @Table(name = "employee")
 public class Employee {
