@@ -1,6 +1,5 @@
 package pl.lukas.bibernateAssociationsFour.entity;
 
-import com.sun.javafx.scene.control.behavior.TextBinding;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
