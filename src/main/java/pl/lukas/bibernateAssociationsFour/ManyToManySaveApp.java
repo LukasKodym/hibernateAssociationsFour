@@ -25,6 +25,15 @@ public class ManyToManySaveApp {
 
         session.beginTransaction();
 
+        Training training = new Training("sales training");
+        Employee employeeOne = new Employee("Johny","Depp", 16000);
+        Employee employeeTwo = new Employee("Brad","Pit", 16000);
+
+        training.addEmployee(employeeOne);
+        training.addEmployee(employeeTwo);
+
+        session.persist(training); // utrwalanie w bazie danych obiektu szkolenia
+
         session.getTransaction().commit();
 
         factory.close();

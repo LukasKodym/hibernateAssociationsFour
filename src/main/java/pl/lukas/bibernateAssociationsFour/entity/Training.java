@@ -53,9 +53,9 @@ public class Training {
     }
 
     public void addEmployee(Employee employee) {
-        if (employees != null) {
+        if (employees == null) {
             employees = new ArrayList<>();
-            employees.add(employee);
         }
+        employees.add(employee);
     }
 }

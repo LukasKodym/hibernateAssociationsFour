@@ -25,6 +25,12 @@ public class Employee {
             inverseJoinColumns = @JoinColumn(name = "id_training"))
     private List<Training> trainings;
 
+    public Employee(String firstName, String lastName, int salary) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.salary = salary;
+    }
+
     public Integer getIdEmployee() {
         return idEmployee;
     }
