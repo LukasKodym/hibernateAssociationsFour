@@ -28,7 +28,7 @@ public class ManyToManyGetApp {
         int id = 3; // id z tabeli employee_training w bazie danych
 
         session.beginTransaction();
-
+//part3
         String getTraining = "from Training"; // zapytanie hql zwracające wszystkie obiekty klasy Training
 
         Query query = session.createQuery(getTraining); // obiekt zapytania
@@ -41,6 +41,7 @@ public class ManyToManyGetApp {
                 System.out.println("- " + employee);
             }
         }
+//end part3---------------------------------------
 
 /*//part2
         Training training = new Training("java training");
@@ -52,9 +53,10 @@ public class ManyToManyGetApp {
         training.addEmployee(employeeTwo);
 
         session.persist(training);
+  //end part2---------------------------------------
 */
 
-/*//part 1
+/*//part1
         Training training = session.get(Training.class, id); // pobierniae obiektu training metodą get, przypisujemy do zmiennej
 
         System.out.println(training); // wyświetlanie
@@ -62,6 +64,7 @@ public class ManyToManyGetApp {
         for (Employee employee : training.getEmployees()) { // wyświetlanie o powiązanych z trainingiem obiektach klasey Employee
             System.out.println("- " + employee);
         }
+  //end part1---------------------------------------
 */
 
         session.getTransaction().commit();
