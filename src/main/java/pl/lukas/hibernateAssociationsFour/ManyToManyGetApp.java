@@ -5,7 +5,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 import pl.lukas.bibernateAssociationsFour.entity.*;
-
 import java.util.List;
 
 public class ManyToManyGetApp {
@@ -70,6 +69,5 @@ public class ManyToManyGetApp {
         session.getTransaction().commit();
 
         factory.close();
-
     }
 }

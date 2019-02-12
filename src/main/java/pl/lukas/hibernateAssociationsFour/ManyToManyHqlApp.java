@@ -5,7 +5,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 import pl.lukas.bibernateAssociationsFour.entity.*;
-
 import java.util.List;
 
 public class ManyToManyHqlApp {
@@ -41,7 +40,6 @@ public class ManyToManyHqlApp {
         // obiekt zapytania tworzymy za pomocą obiektu Query po rozpoczęciu transakcji
 
         Query query = session.createQuery(getEmployeeTwo);
-
 
 // part3
         // przypisanie zmiennej  do parametru w zapytaniu hql
