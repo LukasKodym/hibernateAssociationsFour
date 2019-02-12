@@ -1,9 +1,9 @@
-package pl.lukas.bibernateAssociationsFour;
+package pl.lukas.hibernateAssociationsFour;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import pl.lukas.bibernateAssociationsFour.entity.*;
+import pl.lukas.hibernateAssociationsFour.entity.*;
 
 public class ManyToManyDeleteApp {
 

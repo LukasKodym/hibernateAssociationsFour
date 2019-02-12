@@ -1,4 +1,4 @@
-package pl.lukas.bibernateAssociationsFour.entity;
+package pl.lukas.hibernateAssociationsFour.entity;
 
 import lombok.NoArgsConstructor;
 import lombok.ToString;

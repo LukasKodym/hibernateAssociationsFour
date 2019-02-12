@@ -1,4 +1,4 @@
-package pl.lukas.bibernateAssociationsFour.entity;
+package pl.lukas.hibernateAssociationsFour.entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;
