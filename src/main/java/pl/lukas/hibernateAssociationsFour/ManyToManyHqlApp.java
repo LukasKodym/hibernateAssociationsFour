@@ -1,4 +1,4 @@
-package pl.lukas.bibernateAssociationsFour;
+package pl.lukas.hibernateAssociationsFour;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
